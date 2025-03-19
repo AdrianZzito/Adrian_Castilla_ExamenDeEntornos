@@ -13,6 +13,10 @@ public class ACC_Rectangulo {
     double ladoA;
     double ladoB;
     String color;
+
+    public ACC_Rectangulo() {
+    }
+
     
     public ACC_Rectangulo(int id, double ladoA, double ladoB, String color) {
         this.id = id;
@@ -51,6 +55,14 @@ public class ACC_Rectangulo {
 
     public void setColor(String color) {
         this.color = color;
+    }
+    
+    // Calculo area rectangulo
+    public double calculoAreaRectangulo() {
+        double ladoA = this.getLadoA();
+        double ladoB = this.getLadoB();
+        double area1 = ladoA * ladoB;
+        return area1;
     }
 
     @Override
