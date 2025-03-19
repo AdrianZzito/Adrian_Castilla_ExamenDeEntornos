@@ -10,19 +10,6 @@ package com.mycompany.adrian_castilla_examendeentornos;
  */
 public class Adrian_Castilla_ExamenDeEntornos {
     
-    public static double calculoAreaRectangulo(ACC_Rectangulo rectangulo1) {
-        double ladoA = rectangulo1.getLadoA();
-        double ladoB = rectangulo1.getLadoB();
-        double area1 = ladoA * ladoB;
-        return area1;
-    }
-    
-    public static double calculoAreaCirculo(ACC_Circular circulo1) {
-        double radio1 = circulo1.getRadio();
-        double area2 = radio1 * 3.14;
-        return area2;
-    }
-    
     public static double calculoDiferencia(double area1, double area2) {
         double diferencia = area1 - area2;
         return diferencia;
