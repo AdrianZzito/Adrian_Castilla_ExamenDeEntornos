@@ -13,7 +13,7 @@ public class ACC_Rectangulo {
     double ladoA;
     double ladoB;
     String color;
-
+    
     public ACC_Rectangulo(int id, double ladoA, double ladoB, String color) {
         this.id = id;
         this.ladoA = ladoA;
